@@ -1,0 +1,75 @@
+:root{
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --primary-white-color: #fff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+}
+.web{
+    font-family: Raleway, sans-serif;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.Studio{
+    font-family: Raleway, sans-serif;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.link:hover{
+  color: var(--accent-color);
+}
+.link:focus{
+    color: var(--accent-color);
+}
+.navigation{
+ color: var(--title-text-color);
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16.41px;
+}
+.connection{
+    font-weight: 500;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.hero-text{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+.hero{
+    background-color: #2F303A;
+}
+.btn{
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+    cursor: pointer;
+}
+.btn:hover,.btn:focus{
+    background-color: var(--accent-color);
+}
+.title{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        color: var(--title-text-color);
+}
+.title-text{
+    font-size: 14px;
+    line-height: 24px;
+}
+.work{
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+}
