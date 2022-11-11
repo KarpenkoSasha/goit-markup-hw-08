@@ -147,3 +147,9 @@ li{
 .link.navigation.current{
     accent-color: var(--accent-color);
 }
+.place{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.71em;
+    color: #FFFFFF;
+}
