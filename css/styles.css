@@ -22,6 +22,10 @@
     font-size: 26px;
     line-height: 1.17em;
 }
+.link{
+    text-decoration: none;
+    accent-color: var(--accent-color);
+}
 .link:hover{
   color: var(--accent-color);
 }
@@ -29,6 +33,7 @@
     color: var(--accent-color);
 }
 .navigation{
+    accent-color: var(--accent-color);
  color: var(--title-text-color);
  font-weight: 500;
  font-size: 14px;
@@ -50,9 +55,13 @@
     background-color: #2F303A;
 }
 .btn{
+    accent-color: var(--accent-color);
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
     cursor: pointer;
     color: var(--primary-white-color);
-    background-color: #2F303A;
+    background-color: var(--accent-color);
+    outline: 0;
 }
 .btn:hover,.btn:focus{
     background-color: var(--accent-color);
@@ -101,15 +110,18 @@ li{
  font-size: 14px;
 }
 .body-portfolio{
-    font-family: Robot, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #212121;
 }
+
 .btn-portfolio{
+    accent-color: var(--accent-color);
     cursor: pointer;
-    background-color: #F5F4FA;
+    background-color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62em;
+    color: #212121;
 }
 .btn-portfolio:hover,.btn-portfolio:focus{
     background-color: var(--accent-color);
@@ -124,4 +136,7 @@ li{
     font-size: 16px;
     line-height: 1.87em;
     color: var(--primary-text-color);
+}
+.link.navigation.current{
+    accent-color: var(--accent-color);
 }
