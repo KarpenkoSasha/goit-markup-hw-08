@@ -163,9 +163,13 @@ li{
     color: #FFFFFF;
     font-style: normal;
 }
-.current{
+.current[href]{
     color: var(--accent-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.17em;
+}
+.container{
+width: 1600px;
+height: 80px;
+}
+.navigation-header{
+    display:flex;
 }
