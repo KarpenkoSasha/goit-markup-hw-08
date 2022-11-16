@@ -40,7 +40,6 @@
     color: var(--accent-color);
 }
 .navigation{
-    accent-color: var(--accent-color);
  color: var(--title-text-color);
  font-weight: 500;
  font-size: 14px;
@@ -157,13 +156,16 @@ li{
     line-height: 1.87em;
     color: var(--primary-text-color);
 }
-.link.navigation.current{
-    accent-color: var(--accent-color);
-}
 .place{
     font-size: 14px;
     font-family: Roboto, sans-serif;
     line-height: 1.71em;
     color: #FFFFFF;
     font-style: normal;
+}
+.current{
+    color: var(--accent-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.17em;
 }
