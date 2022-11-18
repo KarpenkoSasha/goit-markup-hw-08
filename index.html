@@ -7,35 +7,44 @@
     <title>Студія</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/styles.css"
     />
 </head>
 <body class="body-html">
-    <header class="container">
-        <div class="navigation-header">
-        <nav>
+    <header class="header">
+        <div class="container">
+        <nav class="site-nav">
+            <div class="logo">
         <a href="/" class="link">
             <span class="web">Web</span><span class="Studio">Studio</span>
         </a>
-        <ul>
+        </div>
+        <ul class="navigation-container">
             <li><a class="link navigation current" href="./index.html">Студія</a></li>
             <li><a class="link navigation" href="./portfolio.html">Портфоліо</a></li>
             <li><a class="link navigation" href="/contacts">Контакти</a></li> 
         </ul>
         </nav>
-        <ul>
+        <ul class="connection-container">
             <li><a class="link connection" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link connection" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>
+    <div class="hero-container">
         <section class="hero">
+            <div class="hero-text-container outline">
         <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
         <button class="btn">Замовити послугу</button>
+        </div>
         </section>
-        <section>
+        </div>
+        <section class="quality">
               <h1 style="opacity: 0 ;">Наші гарні якості</h1>
-            <ul>
+            <div class="title-container">
+            <ul class="title-text-container">
             <li><h2 class="title">УВАГА ДО ДЕТАЛЕЙ</h2>
             <p class="title-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
             <li><h2 class="title">ПУНКТУАЛЬНІСТЬ</h2>
@@ -45,14 +54,16 @@
             <li><h2 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
             <p class="title-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
             </ul>
+            </div>
             <h2 class="work">Чим ми займаємося</h2>
-            <ul>
+            <ul class="image">
                 <li><img src="./images/a.jpg" alt="кодинг" width="370"></li>
                 <li><img src="./images/c.jpg" alt="налаштування телефону" width="370"></li>
                 <li><img src="./images/b.jpg" alt="кольорова гама на планшеті" width="370"></li>
             </ul>
         </section>
         <main>
+            <div class="command-container">
         <section>
             <h2 class="command">Наша команда</h2>
             <ul>
@@ -70,7 +81,9 @@
             <p class="subtitle-text">UI Designer</p></li>    
             </ul>
         </section>
+        </div>
         </main>
+        <div class="footer-container">
         <footer class="footer">
           <a href="/" class="link">
             <span class="web">Web</span><span class="Studio-footer">Studio</span>
@@ -87,6 +100,7 @@
             <a class="link connection" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
         </footer>
+        </div>
 </body>
 
 </html>
