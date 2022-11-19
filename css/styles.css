@@ -5,7 +5,6 @@
     --accent-color: #2196F3;
 }
 .outline {
-    outline: 1px solid tomato;
 }
 .body-html{
     font-family: Roboto, sans-serif;
@@ -69,7 +68,15 @@ p h1 h2 h3 h4 h5 h6{
     font-size: 14px;
     line-height: 1.17em;
     font-style: normal;
-    margin: 0 40px;
+    margin-left: 40px;
+}
+.connection-footer{
+    font-weight: 500;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.17em;
+    font-style: normal;
+    padding-left: 20px;    
 }
 .hero-text{
     color: #FFFFFF;
@@ -82,7 +89,7 @@ p h1 h2 h3 h4 h5 h6{
     text-transform: uppercase;
     width: 696px;
     height: 120px;
-    left: 430px;
+    left: 237px;
     top: 280px;
     position: absolute;
 }
@@ -108,7 +115,7 @@ p h1 h2 h3 h4 h5 h6{
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 650px;
+    left: 460px;
     top: 430px;
     padding: 0px 0px 0px 24px;
 }
@@ -134,11 +141,8 @@ p h1 h2 h3 h4 h5 h6{
     font-weight: 700;
     line-height: 42.19px;
     position: absolute;
-    width: 366px;
-    height: 42px;
-    left: 617px;
-    top: 966px;
-
+    width: 400px;
+    left: 432px;
 }
 li{
     list-style: none;
@@ -148,19 +152,41 @@ li{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17em;
+    width: 264px;
+    margin-left: 468px;
+}
+.people{
+    margin-right: 30px;
 }
 .subtitle{
     font-weight: 500;
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.17em;
+    padding: 30px 0px 10px 70px;
 }
 .subtitle-text{
     font-size: 16px;
     line-height: 1.17em;
 }
+.Product{
+ margin: 10px 70px 30px 70px;
+}
+.Frontend{
+    margin: 10px 60px 30px 60px;
+}
+.Marketing{
+    margin: 10px 97px 30px 97px;
+}
+.Designer{
+    margin: 10px 92px 30px 92px;
+}
 .footer{
     background-color: #2F303A;
+    width: 1200px;
+}
+.logo-footer{
+    padding: 60px 0px 28px 50px;
 }
 .footer-text{
  color: #FFFFFF;
@@ -202,29 +228,42 @@ li{
     line-height: 1.71em;
     color: #FFFFFF;
     font-style: normal;
+    margin-left: 20px ;
 }
 .current[href]{
     color: var(--accent-color);
 }
 
-.footer-container{}
+.footer-container{
+padding-bottom: 60px;
+padding-left: 30px;
+}
 .hero-container{
     width: 1200px;
     height: 600px;
     background-color: #2F303A;
     align-items: center;
 }
-.command-container{}
+.command-container{
+    background-color:#F5F4FA;
+    width: 1200px;
+    padding: 94px 15px 0px 15px;
+}
+.command-inf{
+    display: flex;
+    width: 1200px;
+    padding: 50px 15px 94px 15px;
+}
 .title-container{
-    Width: 1230px;
+    Width: 1200px;
     padding: 94px 15px;
 }
 .title-text-container{
     display: flex;
+    margin-left: 15px;
 }
 .navigation-container{
     display: flex;
- outline: 3px tomato;
 }
 .container{
 margin: 0 auto;
@@ -235,13 +274,19 @@ padding: 0px 15px;
 display: flex;
 align-items: center;
 }
-.header{
+.container{
 border-bottom: 1px solid #ececec;
 }
 .connection-container{
     display: flex;
-    outline: 10px tomato;
+    margin: 0 auto;
 }
-.quality{
-    width: 1200px;
+.images{
+    display: flex;
+    padding: 186px 15px 94px 15px ;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.image{
+    margin-right: 30px;
 }
