@@ -309,6 +309,7 @@ width: 1600px;
 }
 .btn-container{
     width: 1600px;
+    margin-left: 65px;
 }
 .button-container{
     width: 570px;
@@ -320,6 +321,6 @@ width: 1600px;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1200px;
-    margin: 0 auto;
+    margin-left: 70px;
     padding-bottom: 94px;
 }
