@@ -74,7 +74,6 @@ p h1 h2 h3 h4 h5 h6{
     font-size: 14px;
     line-height: 1.17em;
     font-style: normal;
-    padding-left: 20px;
     margin-top: 12px;
     display: inline-block;    
 }
@@ -91,9 +90,6 @@ p h1 h2 h3 h4 h5 h6{
     height: 120px;
     margin: 0 auto;
     padding-top: 200px;
-}
-.hero{
-    background-color: #2F303A;
 }
 .btn{
     line-height: 1.88em;
@@ -123,7 +119,7 @@ p h1 h2 h3 h4 h5 h6{
         font-weight: 700;
         line-height: 1.14em;
         color: var(--title-text-color);
-        padding: 0px 30px 16px 0px;
+        padding-bottom: 16px;
         width: 270px;
 }
 .title-text{
@@ -142,6 +138,17 @@ p h1 h2 h3 h4 h5 h6{
 }
 li{
     list-style: none;
+}
+.list::before{
+    display: block;
+    content: "";
+    background-image: url(../images/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    height: 120px;
+    max-width: 270px;
+    margin-right: 30px;
 }
 .command{
     color: var(--title-text-color);
@@ -184,8 +191,8 @@ li{
 }
 .logo-footer{
  margin-left: auto;
- margin-right: 1310px;
- width: 145px;
+ margin-right: auto;
+ width: 1200px;
  padding-top: 60px;
 }
 .footer-text{
@@ -232,23 +239,26 @@ li{
     line-height: 1.71em;
     color: #FFFFFF;
     font-style: normal;
-    margin: 12px 0px 12px 20px;
 }
 .current[href]{
     color: var(--accent-color);
 }
 
 .footer-container{
-   width: 231px;
+   width: 1200px;
    padding-bottom: 60px;
     margin-left: auto;
     padding-top: 28px;
-    margin-right: 1240px;
+    margin-right: auto;
 
 }
 .hero-container{
     height: 600px;
-    background-color: #2F303A;
+    background-image: linear-gradient(rgba(196, 196, 196, 1),
+     rgba(196, 196, 196, 1));
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
 }
 .command-container{
