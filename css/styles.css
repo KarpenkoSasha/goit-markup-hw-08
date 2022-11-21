@@ -142,7 +142,7 @@ p h1 h2 h3 h4 h5 h6{
     line-height: 42.19px;
     width: 366px;
     margin: 0 617px;
-    
+    margin-bottom: 50px;
 }
 li{
     list-style: none;
@@ -156,7 +156,6 @@ li{
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
-    padding-bottom: 50px;
 }
 .people{
     margin-right: 30px;
@@ -257,17 +256,17 @@ li{
 .command-container{
     background-color:#F5F4FA;
     width: 1600px;
+    margin-top: 94px;
 }
 .command-inf{
     display: flex;
     width: 1230px;
-    padding: 0px 15px 94px 15px;
+    padding: 50px 15px 94px 15px;
     margin: 0 auto;
 }
 .title-container{
-    margin: 94px 215px;
+    padding: 94px 215px;
     Width: 1200px;
-    padding: 0x 15px;
 }
 .title-text-container{
     display: flex;
@@ -302,7 +301,7 @@ width: 1600px;
 .images{
     display: flex;
     width: 1170px;
-    margin: 50px 215px 94px 200px;
+    margin: 0px 215px 0px 200px;
 }
 .image{
     margin-right: 30px;
