@@ -89,9 +89,8 @@ p h1 h2 h3 h4 h5 h6{
     text-transform: uppercase;
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 200px;
-    position: absolute;
+    margin: 0 auto;
+    padding-top: 200px;
 }
 .hero{
     background-color: #2F303A;
@@ -111,13 +110,10 @@ p h1 h2 h3 h4 h5 h6{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin: 30px;
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 670px;
-    top: 350px;
-    padding: 0px 0px 0px 24px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 10px 24px;
+    border-color: transparent;
 }
 .btn:hover,.btn:focus{
     background-color: var(--accent-color);
@@ -141,8 +137,8 @@ p h1 h2 h3 h4 h5 h6{
     font-weight: 700;
     line-height: 42.19px;
     width: 366px;
-    margin: 0 617px;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 94px;
 }
 li{
     list-style: none;
@@ -185,10 +181,10 @@ li{
 }
 .footer{
     background-color: #2F303A;
-    width: 1600px;
 }
 .logo-footer{
- margin: 0px 1240px 28px 215px;
+ margin-left: auto;
+ margin-right: 1385px;
  width: 145px;
  padding-top: 60px;
 }
@@ -243,19 +239,20 @@ li{
 }
 
 .footer-container{
-   margin: 0px 1240px 0px 200px;
    width: 231px;
    padding-bottom: 60px;
+    margin-left: auto;
+    padding-top: 28px;
+    margin-right: 1315px;
+
 }
 .hero-container{
-    width: 1600px;
     height: 600px;
     background-color: #2F303A;
     align-items: center;
 }
 .command-container{
     background-color:#F5F4FA;
-    width: 1600px;
     margin-top: 94px;
 }
 .command-inf{
@@ -265,7 +262,8 @@ li{
     margin: 0 auto;
 }
 .title-container{
-    padding: 94px 215px;
+    margin: 0 auto;
+    margin-top: 94px;
     Width: 1200px;
 }
 .title-text-container{
@@ -282,17 +280,10 @@ padding: 0px 15px;
 margin-left: auto;
 margin-right: auto;
 }
-.header{
-    width: 1600px;
-}
 .header .container{
 display: flex;
 align-items: center;
-padding-left: 215px;
-}
-.container{
-border-bottom: 1px solid #ececec;
-width: 1600px;
+margin: 0 auto;
 }
 .connection-container{
     display: flex;
@@ -301,13 +292,13 @@ width: 1600px;
 .images{
     display: flex;
     width: 1170px;
-    margin: 0px 215px 0px 200px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .image{
     margin-right: 30px;
 }
 .btn-container{
-    width: 1600px;
     margin-left: 65px;
 }
 .button-container{
@@ -320,6 +311,8 @@ width: 1600px;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1200px;
-    margin-left: 70px;
-    padding-bottom: 94px;
+    margin-left: 200px;
+}
+.header{
+    border-bottom: 1px solid #ececec;
 }
