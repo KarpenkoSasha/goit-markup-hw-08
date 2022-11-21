@@ -287,7 +287,7 @@ margin: 0 auto;
 }
 .connection-container{
     display: flex;
-    margin: 0 auto;
+    margin-left: auto;
 }
 .images{
     display: flex;
@@ -311,7 +311,6 @@ margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1200px;
-    margin-left: 200px;
 }
 .header{
     border-bottom: 1px solid #ececec;
