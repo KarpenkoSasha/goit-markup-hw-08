@@ -3,6 +3,8 @@
     --primary-white-color: #fff;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --font-weight: 700;
+    --font-family: Roboto, sans-serif;
 }
 .body-html{
     font-family: Roboto, sans-serif;
@@ -152,7 +154,7 @@ li{
     background-position: center;
     background-color: #F5F4FA;
     height: 120px;
-    max-width: 270px;
+    width: 270px;
     margin-right: 30px;
 }
 .list:nth-child(2)::before{
@@ -163,7 +165,7 @@ li{
     background-position: center;
     background-color: #F5F4FA;
     height: 120px;
-    max-width: 270px;
+    width: 270px;
     margin-right: 30px;
 }
 .list:nth-child(3)::before {
@@ -174,7 +176,7 @@ li{
     background-position: center;
     background-color: #F5F4FA;
     height: 120px;
-    max-width: 270px;
+    width: 270px;
     margin-right: 30px;
 }
 .list:nth-child(4)::before {
@@ -185,8 +187,8 @@ li{
     background-position: center;
     background-color: #F5F4FA;
     height: 120px;
-    max-width: 270px;
-    margin-right: 30px;
+    width: 270px;
+    /* margin-right: 30px;     */
 }
 .command{
     color: var(--title-text-color);
@@ -240,6 +242,7 @@ li{
  margin-right: auto;
  width: 1200px;
  padding-top: 60px;
+ display: flex;
 }
 .footer-text{
  color: #FFFFFF;
@@ -330,8 +333,7 @@ li{
     display: flex;
 }
 .container{
-width: 1230px;
-padding: 0px 15px;
+width: 1200px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 94px;
@@ -340,6 +342,7 @@ margin-bottom: 94px;
 display: flex;
 align-items: center;
 margin: 0 auto;
+padding: 0 15px;
 }
 .connection-container{
     display: flex;
@@ -426,4 +429,15 @@ margin: 0 auto;
 .I{
     width: 130px;
     margin: 30px 70px 10px 70px;
+}
+.title-footer{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-size: 14px;
+    line-height: 1.14em;
+    width: 206px;
+    color: #FFFFFF;
+    margin-left: 156px;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
