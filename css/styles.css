@@ -65,6 +65,10 @@ p h1 h2 h3 h4 h5 h6{
 }
 .icon-header{
     margin-right: 10px;
+    fill: #afb1b8;
+}
+.mailto{
+    align-items: center;
 }
 .connection:hover .icon-header{
     fill: var(--accent-color);
