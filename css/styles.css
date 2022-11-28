@@ -458,12 +458,16 @@ padding: 0 15px;
     transform: translate(-50%, -50%);
     width: 322px;
     height: 168px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
     opacity: 0;
 }
 .text-hover:hover{
     opacity: 1;
 }
-.bg-proects:hover::before{
+.bg-proects:hover::before {
     content: "";
     display: inline-block;
     position: absolute;
@@ -472,6 +476,7 @@ padding: 0 15px;
     background-color: rgba(33, 150, 243, 0.9);
     width: 370px;
     height: 294px;
+    opacity: 1;
 }
 .clients-head{
     color: var(--title-text-color);
