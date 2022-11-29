@@ -456,16 +456,17 @@ padding: 0 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 322px;
-    height: 168px;
+    width: 300px;
+    height: 210px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5em;
     opacity: 0;
 }
-.text-hover:hover{
+.bg-proects:hover .text-hover{
     opacity: 1;
+    cursor: pointer;
 }
 .bg-proects:hover::before {
     content: "";
@@ -476,7 +477,7 @@ padding: 0 15px;
     background-color: rgba(33, 150, 243, 0.9);
     width: 370px;
     height: 294px;
-    opacity: 1;
+    cursor: pointer;
 }
 .clients-head{
     color: var(--title-text-color);
