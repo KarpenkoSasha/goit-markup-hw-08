@@ -68,8 +68,7 @@ p h1 h2 h3 h4 h5 h6{
  font-weight: 500;
  font-size: 14px;
  line-height: 1.17em;
- margin: 0 50px;
-
+margin-right: 50px;
 
 }
 .icon-header{
@@ -346,12 +345,12 @@ li{
 }
 .hero-container{
     height: 600px;
-    background-image: linear-gradient(rgba(196, 196, 196, 1),
-     rgba(196, 196, 196, 1));
-    background-image: url(../images/bg.jpg);
+    width: 1600px;
+    margin: auto auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
 }
 .command-container{
     background-color:#F5F4FA;
@@ -660,7 +659,7 @@ fill: #FFFFFF;
     pointer-events: none;
 }
 .modal{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
