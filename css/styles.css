@@ -677,5 +677,5 @@ fill: #FFFFFF;
     width: 30px;
     height: 30px;
     background-color: var(--primary-white-color);
-    cursor: pointer;
+    cursor: pointer; 
 }
