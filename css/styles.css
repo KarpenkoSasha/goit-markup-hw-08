@@ -909,7 +909,8 @@ li {
 }
 
 .footer-feedback {
-    margin-left: 94px;
+    /* max-width: 570px; */
+    margin-left: 58px;
     height: 86px;
     padding-top: 10px;
 }
@@ -935,6 +936,7 @@ li {
     background: #2F303A;
     padding: 15px 16px;
     cursor: pointer;
+    margin-right: 12px;
 }
 
 .btn-footer {
@@ -950,4 +952,5 @@ li {
     font-size: 16px;
     line-height: 1.875em;
     text-align: center;
+    cursor: pointer;
 }
