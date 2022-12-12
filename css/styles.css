@@ -570,6 +570,7 @@ li {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5em;
+    color: var(--primary-white-color);
 
     transform: translate(-50%, 100%);
     transition: transform var(--animation-trasition);
