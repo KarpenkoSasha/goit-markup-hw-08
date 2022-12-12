@@ -325,7 +325,6 @@ li {
 }
 
 .btn-portfolio {
-    accent-color: var(--accent-color);
     cursor: pointer;
     background-color: #F5F4FA;
     font-weight: 500;
@@ -337,10 +336,9 @@ li {
     border: #FFFFFF;
     padding: 6px 22px;
 
-    transition-property: color, ;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    transition: color 250ms var(--animation-trasition);
+    transition: background 250ms var(--animation-trasition);
+    transition: box-shadow 250ms var(--animation-trasition);
 }
 
 .btn-portfolio:hover,
@@ -348,6 +346,7 @@ li {
     background-color: var(--accent-color);
     color: #FFFFFF;
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 
 .title-proects {
