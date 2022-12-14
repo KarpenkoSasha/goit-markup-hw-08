@@ -1,6 +1,9 @@
 @import './utils/variables';
+@import './utils/body';
+
 @import './base/reset';
 @import './base/btn';
+
 @import './components/header';
 @import './components/footer';
 @import './components/hero';
@@ -8,12 +11,6 @@
 @import './components/info';
 @import './components/command';
 @import './components/clients';
-@import './utils/body';
 
 @import './components/portfolio-proects';
 @import './components/btn-portfolio';
-
-
-
-
-
