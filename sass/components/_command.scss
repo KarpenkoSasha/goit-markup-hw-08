@@ -1,0 +1,127 @@
+.command {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+}
+
+.people {
+    height: 428px;
+    max-width: 270px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    font-weight: 500;
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.17em;
+}
+
+.subtitle-text {
+    font-size: 16px;
+    line-height: 1.17em;
+}
+
+.Product {
+    margin: 10px 70px 0px 70px;
+}
+
+.Frontend {
+    margin: 10px 60px 0px 60px;
+}
+
+.Marketing {
+    margin: 10px 97px 0px 97px;
+}
+
+.Designer {
+    margin: 10px 92px 0px 92px;
+}
+.command-container {
+    background-color: #F5F4FA;
+    margin-top: 94px;
+}
+
+.command-inf {
+    display: flex;
+    width: 1230px;
+    padding: 50px 15px 94px 15px;
+    margin: 0 auto;
+}
+.O {
+    width: 104px;
+    margin: 30px 83px 10px 83px;
+}
+
+.M {
+    width: 130px;
+    margin: 30px 70px 10px 70px;
+}
+
+.Mi {
+    width: 145px;
+    margin: 30px 62px 10px 63px;
+}
+
+.I {
+    width: 130px;
+    margin: 30px 70px 10px 70px;
+}
+
+.icon-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-social-link {
+    width: 44px;
+    height: 44px;
+}
+
+.icon-social-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.link-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: color, ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+
+.link-icon:hover .icon-social {
+    fill: #FFFFFF;
+}
+
+.icon-social {
+    fill: #afb1b8;
+
+    transition-property: color, ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+}
+
+.link-icon:hover {
+    background-color: var(--accent-color);
+}

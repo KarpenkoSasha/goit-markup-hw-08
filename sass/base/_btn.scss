@@ -1,0 +1,25 @@
+.btn {
+    line-height: 1.88em;
+    accent-color: var(--accent-color);
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    color: var(--primary-white-color);
+    outline: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 10px 24px;
+    border-color: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+}
