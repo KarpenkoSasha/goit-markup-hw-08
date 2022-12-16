@@ -1,4 +1,4 @@
-.command {
+.command-inf {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -9,7 +9,7 @@
     padding-top: 94px;
 }
 
-.people {
+.command__people {
     height: 428px;
     max-width: 270px;
     margin-right: 30px;
@@ -17,14 +17,14 @@
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.subtitle {
+.command__subtitle {
     font-weight: 500;
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.17em;
 }
 
-.subtitle-text {
+.command__subtitle-text {
     font-size: 16px;
     line-height: 1.17em;
 }
@@ -49,7 +49,7 @@
     margin-top: 94px;
 }
 
-.command-inf {
+.command{
     display: flex;
     width: 1230px;
     padding: 50px 15px 94px 15px;
@@ -75,7 +75,7 @@
     margin: 30px 70px 10px 70px;
 }
 
-.icon-container {
+.icon{
     margin: 0 auto;
     margin-top: 30px;
     width: 206px;
@@ -84,16 +84,16 @@
     align-items: center;
 }
 
-.icon-social-link {
+.icon__social-link {
     width: 44px;
     height: 44px;
 }
 
-.icon-social-link:not(:last-child) {
+.icon__social-link:not(:last-child) {
     margin-right: 10px;
 }
 
-.link-icon {
+.icon__link {
     display: block;
     width: 100%;
     height: 100%;
@@ -107,11 +107,11 @@
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon:hover .icon-social {
+.icon__link:hover .icon__social {
     fill: #FFFFFF;
 }
 
-.icon-social {
+.icon__social {
     fill: #afb1b8;
 
     transition-property: color, ;
@@ -120,6 +120,6 @@
     transition-delay: 0;
 }
 
-.link-icon:hover {
+.icon__link:hover {
     background-color: var(--accent-color);
 }
