@@ -1,4 +1,4 @@
-.title {
+.list__title {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14em;
@@ -7,7 +7,7 @@
     width: 270px;
 }
 
-.title-text {
+.list__title-text {
     font-size: 14px;
     line-height: 1.17em;
     padding-right: 30px;
@@ -81,7 +81,7 @@
     margin-top: 50px;
 }
 
-.image-before {
+.image{
     z-index: -1;
     width: 370px;
     height: 294px;
@@ -89,7 +89,7 @@
     margin-right: 30px;
 }
 
-.image::after {
+.image__apps::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -100,7 +100,7 @@
     height: 70px;
 }
 
-.phone::after {
+.image__phone::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -111,7 +111,7 @@
     height: 70px;
 }
 
-.gama::after {
+.image__gama::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -121,7 +121,7 @@
     width: 100%;
     height: 70px;
 }
-.text-image {
+.image__text {
     display: flex;
     width: 189px;
     height: 16px;
@@ -139,7 +139,7 @@
     Width: 1200px;
 }
 
-.title-text-container {
+.title-container__text{
     display: flex;
     margin-left: 15px;
 }
