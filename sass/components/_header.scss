@@ -23,7 +23,7 @@
     line-height: 1.17em;
 }
 
-.navigation {
+.site-nav__navigation {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -32,9 +32,8 @@
 
 }
 
-.icon-header {
+.connection-container__icon {
     margin-right: 10px;
-    margin-bottom: 3px;
     fill: #afb1b8;
 
     transition-property: color, ;
@@ -45,9 +44,10 @@
 
 .mailto {
     align-items: center;
+    margin-right: 20px;
 }
 
-.connection:hover .icon-header {
+.connection-container__connection:hover .connection-container__icon {
     fill: var(--accent-color);
 }
 
@@ -85,14 +85,19 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.navigation-container {
+.site-nav__navigation-container {
     display: flex;
     margin-top: 32px;
 }
-.connection-container {
+.connection-container__connection {
     display: flex;
     margin-left: auto;
+    color: var(--primary-text-color);
 }
 .header {
     border-bottom: 1px solid #ececec;
+}
+.connection-container{
+    display: flex;
+    margin-left: auto;
 }
