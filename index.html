@@ -22,21 +22,21 @@
             <nav class="site-nav">
                 <div class="logo">
                     <a href="/" class="link">
-                        <span class="web">Web</span><span class="Studio">Studio</span>
+                        <span class="logo__web">Web</span><span class="logo__Studio">Studio</span>
                     </a>
                 </div>
                 <ul class="site-nav__navigation-container">
-                    <li><a class="site-nav__navigation link current" href="./index.html">Студія</a></li>
-                    <li><a class="site-nav__navigation link" href="./portfolio.html">Портфоліо</a></li>
-                    <li><a class="site-nav__navigation link" href="/contacts">Контакти</a></li>
+                    <li><a class="site-nav__navigation--active" href="./index.html">Студія</a></li>
+                    <li><a class="site-nav__navigation" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="site-nav__navigation--distance" href="/contacts">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="connection-container">
-                <li><a class="connection-container__connection link mailto" href="mailto:info@devstudio.com">
-                        <svg width="16" height="12" class="connection-container__icon">
+                <li><a class="connection-container__connection" href="mailto:info@devstudio.com">
+                        <svg width="16" height="12" class="connection-container__icon--mail">
                             <use href="./images/icons.svg.svg#icon-envelope"></use>
                         </svg> info@devstudio.com</a></li>
-                <li><a class="connection-container__connection link tel" href="tel:+380961111111">
+                <li><a class="connection-container__connection" href="tel:+380961111111">
                         <svg width="10" height="16" class="connection-container__icon">
                             <use href="./images/icons.svg.svg#icon-smartphone"></use>
                         </svg> +38 096 111 11 11</a></li>
@@ -55,7 +55,7 @@
                             <use href="./images/icons.svg.svg#icon-close"></use>
                         </svg>
                     </button>
-                    <div class="name form">
+                    <div class="modal__form">
                         <form name="name">
                             <label for="name">
                                 Ім'я
@@ -68,7 +68,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="tel form">
+                    <div class="modal__form">
                         <form name="tel">
                             <label for="tel">
                                 Tелефон
@@ -81,7 +81,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="email form">
+                    <div class="modal__form">
                         <form name="email">
                             <label for="email">
                                 Пошта
@@ -106,7 +106,7 @@
                         <form name="checkbox">
                             <input type="checkbox" name="checkbox" id="checkbox">
                             <label for="checkbox">
-                                Погоджуюся з розсилкою та приймаю <span><a class="link terms" href="">Умови
+                                Погоджуюся з розсилкою та приймаю <span><a class="select__terms" href="">Умови
                                         договору</a></span>
                             </label>
                         </form>
