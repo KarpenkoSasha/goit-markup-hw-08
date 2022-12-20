@@ -1,16 +1,5 @@
-@import './utils/variables';
-@import './utils/body';
-
-@import './base/reset';
-@import './base/btn';
-
 @import './components/header';
-@import './components/footer';
+@import './base/reset';
 @import './components/hero';
+@import './base/btn';
 @import './components/modal';
-@import './components/info';
-@import './components/command';
-@import './components/clients';
-
-@import './components/portfolio-proects';
-@import './components/btn-portfolio';
