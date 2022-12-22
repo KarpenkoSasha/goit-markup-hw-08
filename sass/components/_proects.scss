@@ -1,0 +1,37 @@
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --primary-white-color: #fff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --font-weight: 700;
+    --font-family: Roboto, sans-serif;
+    --animation-trasition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container{
+    width: 100%;
+    padding: 0 15px;
+}
+.proects-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.proects-container__li {
+
+    border: 1px solid #EEEEEE;
+    margin-top: 30px;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.proects-container__li:hover .proects-container__text {
+    transform: translate(-50%, -50%);
+}
+
+.proects-container__li:hover .proects-container__bg::before {
+    transform: translateY(0);
+
+}
+
+.proects-container__li {
+    cursor: pointer;
+}
