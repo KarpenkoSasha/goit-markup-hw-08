@@ -13,9 +13,24 @@
     margin: 0 auto;
 }
 .title-container__text{
+    flex-wrap: wrap;
+    width: 100%;
     margin-top: 94px;
     display: flex;
     justify-content: center;
+
+    @media screen and (min-width: 480px) {
+       width: 450px;
+    }
+
+         @media screen and (min-width: 790px) {
+             width: 790px;
+         }
+
+                  @media screen and (min-width: 1200px) {
+                      width: 1200px;
+                      margin: 94px auto 0 auto;
+                  }
 }
 .list:nth-child(1):before {
     display: block;
@@ -26,8 +41,22 @@
     background-color: #F5F4FA;
     height: 120px;
     width: 270px;
-    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 120px;
+    }
+        @media screen and (min-width: 790px) {
+            width: 354px;
+            height: 226px;
+            margin-right: 30px;
+        }
+                @media screen and (min-width: 1200px) {
+                    width: 270px;
+                    height: 120px;
+                }
 }
 
 .list:nth-child(2)::before {
@@ -39,8 +68,24 @@
     background-color: #F5F4FA;
     height: 120px;
     width: 270px;
-    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 120px;
+        }
+
+                @media screen and (min-width: 790px) {
+                    width: 354px;
+                    height: 226px;
+                    margin-right: 30px;
+                }
+
+                                @media screen and (min-width: 1200px) {
+                                    width: 270px;
+                                    height: 120px;
+                                }
 }
 
 .list:nth-child(3)::before {
@@ -52,8 +97,24 @@
     background-color: #F5F4FA;
     height: 120px;
     width: 270px;
-    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 120px;
+        }
+
+                @media screen and (min-width: 790px) {
+                    width: 354px;
+                    height: 226px;
+                    margin-right: 30px;
+                }
+
+                                @media screen and (min-width: 1200px) {
+                                    width: 270px;
+                                    height: 120px;
+                                }
 }
 
 .list:nth-child(4)::before {
@@ -65,7 +126,25 @@
     background-color: #F5F4FA;
     height: 120px;
     width: 270px;
+    margin-bottom: 30px;
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 120px;
+        }
+
+                @media screen and (min-width: 790px) {
+                    width: 354px;
+                    height: 226px;
+                    margin-right: 30px;
+                }
+
+                                @media screen and (min-width: 1200px) {
+                                    width: 270px;
+                                    height: 120px;
+                                    margin-right: 0;
+                                }
 }
 .list__title{
     font-size: 14px;
@@ -73,11 +152,69 @@
     line-height: 1.14em;
     color: var(--title-text-color);
     padding-bottom: 16px;
-    width: 270px;
+
+    @media screen and (min-width: 480px) {
+      width: 270px;
+      margin-left: 150px;
+    }
+
+        @media screen and (min-width: 790px) {
+            width: 270px;
+            margin-left: 0px;
+        }
+
+                @media screen and (min-width: 1200px) {
+                    width: 270px;
+                    margin-left: 0px;
+                }
+}
+.list__title--punctuality{
+    @media screen and (min-width: 480px) {
+            width: 270px;
+            margin-left: 160px;
+        }
+    
+        @media screen and (min-width: 790px) {
+            width: 270px;
+            margin-left: 0px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            margin-left: 0px;
+        }
+}
+.list__title--plan{
+    @media screen and (min-width: 480px) {
+            width: 270px;
+            margin-left: 172px;
+        }
+    
+        @media screen and (min-width: 790px) {
+            width: 270px;
+            margin-left: 0px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            margin-left: 0px;
+        }
 }
 .list__text{
     font-size: 14px;
     line-height: 1.17em;
     padding-right: 30px;
     width: 270px;
+
+    @media screen and (min-width: 480px) {
+            width: 450px
+        }
+
+                @media screen and (min-width: 790px) {
+                    width: 354px;
+                }
+
+                                  @media screen and (min-width: 1200px) {
+                                      width: 270px;
+                                  }
 }
