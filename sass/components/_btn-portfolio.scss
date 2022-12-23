@@ -22,7 +22,12 @@
     transition: color 250ms var(--animation-trasition),
         background 250ms var(--animation-trasition),
         box-shadow 250ms var(--animation-trasition);
+
+        @media screen and (min-width: 480px) {
+            margin-bottom: 15px;
+        }
 }
+
 
 .portfolio__btn:hover,
 .portfolio__btn:focus {
@@ -33,11 +38,23 @@
 }
 
 .portfolio {
-    margin-left: 65px;
+     width: 100%;
+
 }
 
 .portfolio__container-btn {
     width: 570px;
     display: flex;
     margin: 94px auto 34px auto;
+
+        @media screen and (min-width: 480px) {
+            width: 320px;
+            flex-wrap: wrap;
+            margin-left: 15px;
+        }
+
+        @media screen and (min-width: 790px) {
+            width: 1200px;
+            margin-left: 120px;
+        }
 }
