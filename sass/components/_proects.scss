@@ -11,27 +11,165 @@
     width: 100%;
     padding: 0 15px;
 }
+
 .proects-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (min-width: 480px) {
+            width: 450px;
+            padding: 0 15px;
+        }
+
+
+                @media screen and (min-width: 790px) {
+                    width: 790px;
+                    margin: 0 auto;
+                    padding-right: 30px;
+                }
+
+                                @media screen and (min-width: 1200px) {
+                                    width: 1200px;
+                                    margin: 0 auto;
+                                }
 }
 .proects-container__li {
-
     border: 1px solid #EEEEEE;
     margin-top: 30px;
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-}
 
+    transition: box-shadow var(--animation-trasition);
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+        @media screen and (min-width: 790px) {
+            width: 354px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+                @media screen and (min-width: 1200px) {
+                    width: 370px;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+}
+.proects-container__li--position{
+    @media screen and (min-width: 790px) {
+            width: 354px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            margin-left: 10px;
+                border: 1px solid #EEEEEE;
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 370px;
+            margin-left: 0;
+            margin-bottom: 0;
+                border: 1px solid #EEEEEE;
+                height: 413px;
+        }
+}
 .proects-container__li:hover .proects-container__text {
     transform: translate(-50%, -50%);
 }
-
+.proects-container__li:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 .proects-container__li:hover .proects-container__bg::before {
     transform: translateY(0);
 
 }
-
+.proects-container__image{
+    @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 294px;
+        }
+    
+        @media screen and (min-width: 790px) {
+            width: 354px;
+            height: 294px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 370px;
+            height: 294px;
+        }
+}
 .proects-container__li {
     cursor: pointer;
+}
+.proects-container__bg {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 370px;
+    height: 294px;
+    cursor: pointer;
+    overflow: hidden;
+
+        @media screen and (min-width: 480px) {
+                width: 450px;
+                height: 294px;
+            }
+        
+            @media screen and (min-width: 790px) {
+                width: 354px;
+                height: 294px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: 370px;
+                height: 294px;
+            }
+}
+
+.proects-container__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 210px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: var(--primary-white-color);
+
+    transform: translate(-50%, 100%);
+    transition: transform var(--animation-trasition);
+}
+
+.proects-container__bg::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 370px;
+    height: 294px;
+    cursor: pointer;
+
+    transform: translateY(100%);
+    transition: transform var(--animation-trasition);
+}
+.proects-container__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 24px;
+}
+
+.proects-container__proects {
+    font-size: 16px;
+    line-height: 1.87em;
+    color: var(--primary-text-color);
+    margin-left: 24px;
 }
