@@ -15,12 +15,30 @@ color: var(--title-text-color);
     width: 366px;
     margin: 0 auto;
     margin-top: 94px;
+
+        @media screen and (min-width: 480px) {
+                display: none;
+            }
+
+                                @media screen and (min-width: 1200px) {
+                                    width: 366px;
+                                    display: inline-block;
+                                    margin-left: 750px;
+                                }
 }
 .images {
     display: flex;
     width: 1170px;
     margin: 0 auto;
     margin-top: 50px;
+    
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 .image {
     z-index: -1;
@@ -51,7 +69,15 @@ color: var(--title-text-color);
     width: 100%;
     height: 70px;
 }
-
+.image__gama{
+    width: 370px;
+}
+.image__phone{
+    width: 370px;
+}
+.image__apps{
+    width: 370px;
+}
 .image__gama::after {
     content: "";
     position: absolute;
