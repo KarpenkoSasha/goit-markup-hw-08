@@ -9,25 +9,48 @@
 }
 
 .hero-container{
-    height: 600px;
-    width: 1600px;
+    height: 400px;
+    width: 100%;
     margin: auto auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/bg.jpg);
+        url(../images/bg-mobile.jpg);
     background-repeat: no-repeat;
+
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url(../images/bg-tablet.jpg);
+    }
+
+        @media screen and (min-width: 1200px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../images/bg.jpg);
+                width: 1600px;
+                height: 600px;
+        }
 }
 .hero-text{
     color: #FFFFFF;
         font-weight: 900;
-        font-size: 44px;
+        font-size: 24px;
         line-height: 1.36em;
         font-style: normal;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        width: 696px;
+        width: 360px;
         height: 120px;
         margin: 0 auto;
-        padding-top: 200px;
+        padding-top: 118px;
+        @media screen and (min-width: 768px) {
+            margin-left: 204px;
+        }
+
+                @media screen and (min-width: 1200px) {
+                    margin: 0 auto;
+                    font-size: 44px;
+                    width: 696px;
+                }
 }
