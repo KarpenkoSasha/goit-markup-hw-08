@@ -21,13 +21,13 @@
         <div class="container">
             <nav class="site-nav">
                 <div class="logo">
-                    <a href="/" class="link">
+                    <a href="/">
                         <span class="logo__web">Web</span><span class="logo__Studio">Studio</span>
                     </a>
                 </div>
                 <ul class="site-nav__navigation-container">
                     <li><a class="site-nav__navigation--active" href="./index.html">Студія</a></li>
-                    <li><a class="site-nav__navigation" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="site-nav__navigation site-nav__navigation--distance2" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="site-nav__navigation--distance" href="/contacts">Контакти</a></li>
                 </ul>
             </nav>
@@ -41,9 +41,46 @@
                             <use href="./images/icons.svg.svg#icon-smartphone"></use>
                         </svg> +38 096 111 11 11</a></li>
             </ul>
+            <!-- <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg.svg#icon-menu"></use>
+                </svg>
+            </button>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <ul class="menu__navigation-container">
+                    <li><a class="menu__navigation--active" href="./index.html">Студія</a></li>
+                    <li><a class="menu__navigation" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="menu__navigation--distance" href="/contacts">Контакти</a></li>
+                </ul>
+                <ul class="menu__connection-container">
+                    <li><a class="menu__connection" href="tel:+380961111111">
+                            +38 096 111 11 11</a></li>
+                    <li><a class="menu__connection menu__connection--mail" href="mailto:info@devstudio.com">
+                             info@devstudio.com</a></li>
+                </ul>
+                <ul class="social">
+                    <li class="social__pages">
+                        <a href="" class="social__decoration">Instagram</a>
+                    </li>
+                    <li class="social__pages">
+                        <a href="" class="social__decoration">Twitter</a>
+                    </li>
+                    <li class="social__pages">
+                        <a href="" class="social__decoration">Facebook</a>
+                    </li>
+                    <li class="social__pages">
+                        <a href="" class="social__decoration">LinkedIn</a>
+                    </li>
+                </ul>
+                <button class="menu-toggle js-close-menu">
+                    <svg class="menu__close-svg" width="18" height="18">
+                        <use href="./images/icons.svg.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div> -->
         </div>
     </header>
-    <!-- <div class="hero-container">
+    <div class="hero-container">
         <section class="hero">
             <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
             <button data-modal-open class="btn">Замовити послугу</button>
@@ -115,8 +152,8 @@
                 </div>
             </div>
         </section>
-    </div> -->
-    <!-- <section>
+    </div>
+    <section>
         <h1 style="opacity: 0 ;">Наші гарні якості</h1>
         <div class="title-container">
             <ul class="title-container__text">
@@ -155,9 +192,9 @@
                 <p class="image__text">ДИЗАЦНЕРСКІ РІШЕННЯ</p>
             </div>
         </ul>
-    </section> -->
+    </section>
     <main>
-        <!-- <section class="command-container">
+        <section class="command-container">
             <h2 class="command-inf">Наша команда</h2>
             <ul class="command">
                 <li class="command__people">
@@ -298,8 +335,8 @@
                     </ul>
                 </li>
             </ul>
-        </section> -->
-        <!-- <section class="clients-container">
+        </section>
+        <section class="clients-container">
             <h2 class="clients-head">Постійні клієнти</h2>
             <ul class="clients">
                 <li class="clients__icon">
@@ -345,9 +382,9 @@
                     </a>
                 </li>
             </ul>
-        </section> -->
+        </section>
     </main>
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="footer__logo">
                 <a href="/" class="footer__link">
                     <span class="logo__web">Web</span><span class="footer__Studio">Studio</span>
@@ -359,15 +396,15 @@
                                     м. Київ, пр-т Лесі Українки, 26</a>
                             </address>
                             <address>
-                                <a class="footer__connection" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                <a class="footer__connection footer__connection--distance" href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </address>
                             <address>
-                                <a class="footer__connection" href="tel:+380961111111">+38 096 111 11 11</a>
+                                <a class="footer__connection footer__connection--distance2" href="tel:+380961111111">+38 096 111 11 11</a>
                             </address>
                         </div>
             </div>
             <div class="footer__contacts">
-                <h3 class="footer__titler">ПРИЄДНУЙТЕСЬ</h3>
+                <h3 class="footer__title">ПРИЄДНУЙТЕСЬ</h3>
                 <ul class="footer__icon">
                     <li class="icon__social-link">
                         <a href="#" class="icon__link">
@@ -411,7 +448,11 @@
                                 </svg>
                             </form>
                         </div>
-        </footer> -->
+        </footer>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+            <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
