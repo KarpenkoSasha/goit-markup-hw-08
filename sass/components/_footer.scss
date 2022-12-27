@@ -26,20 +26,28 @@
 }
 
 .footer {
+    width: 100%;
     background-color: #2F303A;
-    display: flex;
-    margin: 0 auto;
+    height: 600px;
+    // display: flex;
 }
 
 .footer__logo {
     margin-left: auto;
-    margin-right: 90px;
+    // margin-right: 90px;
+    margin-right: 113px;
     width: 231px;
-    margin-top: 60px;
+    // margin-top: 60px;
     margin-bottom: 60px;
     height: 125px;
-}
 
+}
+.footer__connection--distance{
+    margin-left: 30px;
+}
+.footer__connection--distance2{
+    margin-left: 40px;
+}
 .footer__text {
     color: #FFFFFF;
     line-height: 1.17em;
@@ -49,7 +57,8 @@
 
 .footer__container {
     margin-top: 28px;
-    margin-left: 35px;
+    // margin-left: 35px;
+    margin-left: 13px;
 }
 
 .footer__feedback {
@@ -68,10 +77,12 @@
     font-size: 14px;
     line-height: 1.17em;
     text-align: center;
+    margin-left: 140px;
 }
 
 .footer__feedback input {
-    width: 358px;
+    // width: 358px;
+    width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -79,7 +90,8 @@
     background: #2F303A;
     padding: 15px 16px;
     cursor: pointer;
-    margin-right: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .footer__btn {
@@ -97,6 +109,8 @@
     line-height: 1.875em;
     text-align: center;
     cursor: pointer;
+    margin-left: 137px;
+    margin-top: 20px;
 }
 
 .input-icon__svg {
@@ -112,8 +126,9 @@
 
 .footer__send {
     position: absolute;
-    right: 28px;
-    bottom: 0;
+    right: 159px;
+    top: 131px;
+    // bottom: 0;
     transform: translateY(-50%);
 }
 
@@ -123,10 +138,13 @@
 }
 
 .footer__contacts {
-    margin-right: 94px;
-    margin-left: 0;
+    // margin-right: 94px;
+    // margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 62px;
     color: var(--primary-white-color);
+
 }
 
 .footer__link {
@@ -135,8 +153,11 @@
 
 .footer__icon {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 200px;
+    // align-items: center;
+    // justify-content: center;
+    margin: 0 auto;
+    margin-right: 143px;
 }
 
 .footer__icons {
@@ -148,10 +169,13 @@
     font-weight: var(--font-weight);
     font-size: 14px;
     line-height: 1.14em;
-    width: 206px;
+    width: 50px;
+    // width: 206px;
     color: #FFFFFF;
     margin-top: 12px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 239px;
 }
 
 .footer__place {
